@@ -31,7 +31,7 @@
           <el-button type="danger" size="small" @click="handleDelete(scope.row)"> 删除 </el-button>
         </template>
       </el-table-column>
-      <el-table-column prop="address" label="Address" />
+      <!-- <el-table-column prop="address" label="Address" /> -->
     </el-table>
     <el-pagination
       small
